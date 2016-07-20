@@ -14,97 +14,237 @@
 	
 	<div class="container-fluid" id="container-site">
 		<!-- Cabeçalho do site[PARTE ESTÁTICA] -->
-		<header class="row">
-			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <a href="#"><img src="imagens/logo.png" /></a>
-				</div>
+		<header class="row bg-branco" id="header">
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <a href="#"><img src="imagens/logo.png" class="img-responsive img-center" /></a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						 </button>
+					</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Inicial <span class="sr-only">(current)</span></a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Imóvel <span class="caret"></span></a>
-					  <ul class="dropdown-menu">
-						<li><a href="#">Action</a></li>
-						<li><a href="#">Another action</a></li>
-						<li><a href="#">Something else here</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">Separated link</a></li>
-						<li role="separator" class="divider"></li>
-						<li><a href="#">One more separated link</a></li>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Inicial <span class="sr-only">(current)</span></a></li>
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Imóvel <span class="caret"></span></a>
+						  <ul class="dropdown-menu">
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+						  </ul>
+						</li>
+						<li><a href="#">Mapa</a></li>
+						<li><a href="#">Serviços</a></li>
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Contato</a></li>
+						<li class="active"><a href="#">Pesquisar Imóvel</a></li>
 					  </ul>
-					</li>
-					<li><a href="#">Serviços</a></li>
-					<li><a href="#">Mapa</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Contato</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
+					</div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
 		</header>
 		<!-- Corpo do site [PARTE DINAMICA]-->
 		<section class="row">
 			<!-- CHAMADA PARA O SLIDE SHOW -->
-			<article class="col-xs-12">
-				<h2>Aqui entra o SLIDE SHOW</h2>
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
-				  <ol class="carousel-indicators">
-					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				  </ol>
+			<article class="col-xs-12 bg-azul container-slide">
+				<div class="col-md-offset-2 col-md-8 col-sm-12">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					  </ol>
 
-				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
-					<div class="item active">
-					  <img src="imagens/slide01.jpg" alt="...">
-					  <div class="carousel-caption">
-						slide 01
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <img src="imagens/slide01.jpg" class="img-responsive" alt="...">
+						  <div class="carousel-caption">
+							slide 01
+						  </div>
+						</div>
+						<div class="item">
+						  <img src="imagens/slide01.jpg" class="img-responsive" alt="...">
+						  <div class="carousel-caption">
+							slide 02
+						  </div>
+						</div>
 					  </div>
-					</div>
-					<div class="item">
-					  <img src="imagens/slide01.jpg" alt="...">
-					  <div class="carousel-caption">
-						slide 02
-					  </div>
-					</div>
-				  </div>
 
-				  <!-- Controls -->
-				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					<span class="sr-only">Anterior</span>
-				  </a>
-				  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					<span class="sr-only">Próximo</span>
-				  </a>
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					  </a>
+					  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Próximo</span>
+					  </a>
+					</div> <!-- fim do carousel-->
 				</div>
-			</article>
+			</article><!-- FIM CHAMADA PARA O SLIDE SHOW -->
+
 			<!-- CHAMADA PARA LISTA DE IMÓVEIS-->
-			<article class="col-xs-12">
-				<h2>Aqui entra a lista de imóveis</h2>
-			</article>
+			<article class="col-xs-12 list-imoveis">
+					
+					<section class="row">
+						<!-- IMOVEL -->
+						<article class="col-md-3">
+							<div class="thumbnail">
+								<div class="dest-img">
+									<a href="">
+										<img src="imagens/casa.jpg" class="img-responsive" alt=""> 
+										<p class="text-center title-nome">Casa - Venda - Cod 101 	
+										<br>
+										<span class="title-endereco">Bela Vista, Itaituba - PA</span>
+										</p>
+									</a>
+								</div>
+								<div class="caption">
+									<ul class="list-unstyled">
+										<li><span class="ic-qua"></span> Quartos: 1</li>
+										<li><span class="ic-ba"></span> Banheiros: 2</li>
+										<li><span class="ic-gar"></span> Garagem: 4</li>
+										<li><hr></li>
+										<li><a href="#">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</article><!-- FIM IMOVEL -->
+						<!-- IMOVEL -->
+						<article class="col-md-3">
+							<div class="thumbnail">
+								<div class="dest-img">
+									<a href="">
+										<img src="imagens/ponto-comercial.jpg" class="img-responsive" alt=""> 
+										<p class="text-center title-nome">Sala / Loja Comercial - Venda - Cod 101 	
+										<br>
+										<span class="title-endereco">Bela Vista, Itaituba - PA</span>
+										</p>
+									</a>
+								</div>
+								<div class="caption">
+									<ul class="list-unstyled">
+										<li><span class="ic-larg"></span> Largura: 7 metros</li>
+										<li><span class="ic-comp"></span> Comprimeito: 4 metros</li>
+										<li><span class="ic-are"></span> Área Total: 28 metros ²</li>
+										<li><hr></li>
+										<li><a href="#">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</article><!-- FIM IMOVEL -->
+						<!-- IMOVEL -->
+						<article class="col-md-3">
+							<div class="thumbnail">
+								<div class="dest-img">
+									<a href="">
+										<img src="imagens/apartamento.jpg" class="img-responsive" alt=""> 
+										<p class="text-center title-nome">Apartamento - Alugar- Cod 101 	
+										<br>
+										<span class="title-endereco">Bela Vista, Itaituba - PA</span>
+										</p>
+									</a>
+								</div>
+								<div class="caption">
+									<ul class="list-unstyled">
+										<li><span class="ic-qua"></span> Suítes: 1</li>
+										<li><span class="ic-ba"></span> Banheiros: 2</li>
+										<li><span class="ic-gar"></span> Garagem: 4</li>
+										<li><hr></li>
+										<li><a href="#">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</article><!-- FIM IMOVEL -->
+						<!-- IMOVEL -->
+						<article class="col-md-3">
+							<div class="thumbnail">
+								<div class="dest-img">
+									<a href="">
+										<img src="imagens/terreno.png" class="img-responsive" alt=""> 
+										<p class="text-center title-nome">Terreno - Venda - Cod 121 	
+										<br>
+										<span class="title-endereco">Bela Vista, Itaituba - PA</span>
+										</p>
+									</a>
+								</div>
+								<div class="caption">
+									<ul class="list-unstyled">
+										<li><span class="ic-larg"></span> Largura: 7 metros</li>
+										<li><span class="ic-comp"></span> Comprimeito: 4 metros</li>
+										<li><span class="ic-are"></span> Área Total: 28 metros ²</li>
+										<li><hr></li>
+										<li><a href="#">Consulta imóvel<span class="ic-mais float-right">+</span></a></li>
+									</ul>
+								</div>
+							</div>
+						</article><!-- FIM IMOVEL -->
+						
+
+					</section>
+
+			</article><!-- FIM LISTA DE IMÓVEIS-->
 		</section>
+
 		<!-- Rodapé do site[PARTE ESTÁTICA] -->
-		<footer class="row">
-			<section>
-				<article class="col-md-4 col-lg-4">SOBRE A EMPRESA</article>
-				<article class="col-md-4 col-lg-4">NÃO LEMBRO</article>
-				<article class="col-md-4 col-lg-4">ATENDIMENTO E CONTATO</article>
+		<footer class="row" id="rodape">
+			<section class="col-xs-12">
+				<article class="col-md-3 col-lg-3">
+				<h3><strong>Sobre</strong></h3>
+				<p class="text-justify">A empresa Gusmão Empreendimentos, com o objetivo inovador, iniciou suas atividades no ano de 2008 na cidade de Itaituba. Os irmãos Queila Gusmão e Alex Gusmão, com empreendedorismo e uma ... <a href="">continua lendo &raquo;</a> </p>
+				</article>
+				<article class="col-md-offset-2 col-md-offset-2 col-md-4 col-lg-4">
+					<h3><strong>Contato</strong></h3>
+					<ul class="list-unstyled">
+						<li>Rua 4ª  (Quarta), nº 361 - Floresta</li>
+						<li>Cep: xxxxxx-xxx</li>
+						<li>Itaituba / PA</li>
+						<li><strong>Fone:</strong> (093) 3518-0367</li>
+						<li><strong>E-mail:</strong> contato@kananda.imb,br</li>
+					</ul>
+				</article>
+				<article class="col-md-3 col-lg-3">
+					<h3><strong>Horário de atendimento</strong></h3>
+					<ul class="list-unstyled">
+						<li>Nósso horário de antendimento:</li>
+						<br>
+						<li><strong>Segunda a Sexta</strong></li>
+						<li>08:00h as 13:00h | 14:00h as 18:00h</li>
+					</ul>
+				</article>
+				<footer class="col-xs-12"><hr>
+					<p class="text-center">
+					&copy; 2008-2016 - Kananda.imb.br | Todos os direitos reservados <br>
+					É proibida a reprodução total ou parcial de qualquer conteúdo deste site.</p>
+				</footer>
 			</section>
-		</footer>
+		</footer><!-- FIM Rodapé do site[PARTE ESTÁTICA]-->
 	</div>
 	
 	<!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
