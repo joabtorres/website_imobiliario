@@ -111,12 +111,13 @@ border-top: 10px solid #005F7D;
 	border-top: 4px solid #005F7D;
 	border-bottom: 4px solid #005F7D;
 }
+.title-destaque small{color:#d8d1d1;}
 .list-servicos{font-size: 19px;}
 .list-servicos img{max-width: 300px;}
 .list-servicos .item-white, .list-servicos .item-blue{ border-top:3px solid #005F7D; border-bottom: : 3px solid #005F7D; padding: 0.6em 5em;}
 .list-servicos .item-blue {background: #20B8FF; color:white;}
 .list-servicos .item-white h3, .list-servicos .item-blue h3{margin-top:2em;}
-
+.list-container { padding: 0.6em 5em;}
 
 /*
 	Medias
@@ -127,4 +128,5 @@ border-top: 10px solid #005F7D;
 }
 @media (max-width: 900px){
 	.list-servicos .item-white, .list-servicos .item-blue{padding: 0.6em 2em;}
+	.list-container { padding: 0.6em 2em;}
 }
