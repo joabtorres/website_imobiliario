@@ -1,0 +1,200 @@
+<!-- PARA EVITA QUE USUÁRIO VEJA A LISTA DE ARQUIVOS -->
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Kananda Negócios Imobiliários</title>
+		<!-- CHAMANDO CSS DO BOOTSTRAP -->
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/estilo.css" rel="stylesheet"/>
+	</head>
+	<body>
+	
+	<div class="container-fluid" id="container-site">
+		<!-- Cabeçalho do site[PARTE ESTÁTICA] -->
+		<header class="row bg-branco" id="header">
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <a href="#"><img src="imagens/logo.png" class="img-responsive img-center" /></a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						 </button>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					  <ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Inicial <span class="sr-only">(current)</span></a></li>
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Imóvel <span class="caret"></span></a>
+						  <ul class="dropdown-menu">
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+							<li><a href="#">Loteamento kkkkkkkk kk</a></li>
+							<li><a href="#">Casa</a></li>
+						  </ul>
+						</li>
+						<li><a href="#">Mapa</a></li>
+						<li><a href="#">Serviços</a></li>
+						<li><a href="#">Sobre</a></li>
+						<li><a href="#">Contato</a></li>
+						<li class="active"><a href="#">Pesquisar Imóvel</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				  </div><!-- /.container-fluid -->
+				</nav>
+		</header>
+		<!-- Corpo do site [PARTE DINAMICA]-->
+		<section class="row">
+			<!-- CHAMADA PARA O SLIDE SHOW -->
+			<article class="col-xs-12 bg-azul title-destaque">
+				<h2><strong>Contato</strong><br><small>
+					Entre em contato ou faça-nós uma visita, aguardamos você.</small></h2>
+			</article><!-- FIM CHAMADA PARA O SLIDE SHOW -->
+
+			<!-- CHAMADA PARA LISTA DE SERVIÇOS-->
+			<article class="col-xs-12 list-container">
+					
+					<section class="row">
+						<!-- contato -->
+						<article class="col-xs-12">
+							<!-- MAPA-->
+							<div class="mapa">
+								<div id="mapa"></div>
+								<div class="caption">
+									<h3><strong>Endereço: </strong></h3>
+									<p>Rua Quarta (4ª), nº 361, bairro Floresta, Itaituba – PA, CEP: 68.181-300.</p>
+								</div>
+							</div><!-- fim MAPA-->
+							<h3 class="text-center"><strong>Formulario de Contato</strong></h3>
+							<!-- FORMULÁRIO PARA CONTATO -->
+							<form method="POST" class="form-contato">
+								<div class="col-sm-6">
+									<div class="input-group">
+										<span class="input-group-addon " id="iNome"><span class="glyphicon glyphicon-user"></span></span>
+										<input type="text" class="form-control" placeholder="Nome Completo" aria-describedby="iNome">
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="input-group">
+										<span class="input-group-addon " id="iNome"><span class="glyphicon glyphicon-phone"></span></span>
+										<input type="text" class="form-control" placeholder="(99) 9999-9999" aria-describedby="iNome">
+									</div>
+								</div>
+								
+
+								<div class="col-sm-6">
+									<div class="input-group">
+										<span class="input-group-addon " id="iEmail"><span class="glyphicon glyphicon-envelope"></span></span>
+										<input type="text" class="form-control" placeholder="email@provedor.com" aria-describedby="iEmail">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="input-group">
+										<span class="input-group-addon " id="iAssunto"><span class="glyphicon glyphicon-pencil"></span></span>
+										<input type="text" class="form-control" placeholder="Assunto" aria-describedby="iAssunto">
+									</div>
+								</div>
+								
+								<div class="col-sm-12">
+									<div class="form-group">
+										<textarea name=""  rows="5" class="form-control" placeholder="Mensagem"></textarea>
+									</div>
+								</div>
+								<div class="col-sm-12 text-center">
+									<input type="submit" class="btn btn-lg btn-default" value="Enviar Mensagem">
+								</div>
+							</form><!-- FIM FORMULÁRIO PARA CONTATO -->
+						</article><!-- FIM CONTATO -->				
+						
+					</section>
+
+			</article><!-- FIM DO CONTATO-->
+		</section>
+
+		<!-- Rodapé do site[PARTE ESTÁTICA] -->
+		<footer class="row" id="rodape">
+			<section class="col-xs-12">
+				<article class="col-md-3 col-lg-3">
+				<h3><strong>Sobre</strong></h3>
+				<p class="text-justify">A empresa Gusmão Empreendimentos, com o objetivo inovador, iniciou suas atividades no ano de 2008 na cidade de Itaituba. Os irmãos Queila Gusmão e Alex Gusmão, com empreendedorismo e uma ... <a href="">continua lendo &raquo;</a> </p>
+				</article>
+				<article class="col-md-offset-2 col-md-offset-2 col-md-4 col-lg-4">
+					<h3><strong>Contato</strong></h3>
+					<ul class="list-unstyled">
+						<li>Rua 4ª  (Quarta), nº 361 - Floresta</li>
+						<li>Cep: xxxxxx-xxx</li>
+						<li>Itaituba / PA</li>
+						<li><strong>Fone:</strong> (093) 3518-0367</li>
+						<li><strong>E-mail:</strong> contato@kananda.imb,br</li>
+					</ul>
+				</article>
+				<article class="col-md-3 col-lg-3">
+					<h3><strong>Horário de atendimento</strong></h3>
+					<ul class="list-unstyled">
+						<li>Nósso horário de antendimento:</li>
+						<br>
+						<li><strong>Segunda a Sexta</strong></li>
+						<li>08:00h as 13:00h | 14:00h as 18:00h</li>
+					</ul>
+				</article>
+				<footer class="col-xs-12"><hr>
+					<p class="text-center">
+					&copy; 2008-2016 - Kananda.imb.br | Todos os direitos reservados <br>
+					É proibida a reprodução total ou parcial de qualquer conteúdo deste site.</p>
+				</footer>
+			</section>
+		</footer><!-- FIM Rodapé do site[PARTE ESTÁTICA]-->
+	</div>
+	
+	<!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- CHAMANDO JS DO BOOTSTRAP -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript">
+	    jQuery(function ($) {
+	        function init_map1() {
+	            var myLocation = new google.maps.LatLng(-4.2668191,-55.995479);
+	            var mapOptions = {
+	                center: myLocation,
+	                zoom: 16
+	            };
+	            var marker = new google.maps.Marker({
+	                position: myLocation,
+	                title: "Property Location"
+	            });
+	            var map = new google.maps.Map(document.getElementById("mapa"),
+	                mapOptions);
+	            marker.setMap(map);
+	        }
+	        init_map1();
+	    });
+	</script>
+	</body>
+</html>
